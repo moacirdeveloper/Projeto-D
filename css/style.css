@@ -1,1 +1,108 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/*CONTAINER*/
+.container{
+    width: 800px;
+    background-color: #e7e7e7;
+    margin: 0px auto;
+}
+/*HEADER*/
+.header{
+    font-size: 1.5rem;
+    background-color: yellow;
+    line-height: 70px;
+    text-align: center;
+}
+/*NAV*/
+.menuBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+.menuBar a{
+    font-size: 20px;
+    color: white;
+}
+.navBar{
+    font-size: 12px;
+}
+.navBar span{
+    margin-right: 10px;
+}
+.navBar button{
+    font-size: 10px;
+    padding: 2px;
+}
+/*ASIDE*/
+.aside{
+    background-color: #979494;
+    padding: 20px;
+    margin: 0px auto;
+    width: 600px;
+    min-height: 400px;
+}
+/*FORMULARIO CADASTRO*/
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgb(199, 194, 194);
+    background-color: rgb(189, 185, 185);
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    gap: 20px;
+}
+form input, button{ 
+    border-radius: 03px;
+    padding: 10px;
+}
+.divBotoes{
+    display: flex;
+    justify-content: space-between;
+}
 
+/*ESTILO EXIBIR NOTICIAS*/
+.table{
+    margin: 0px auto;
+    width: 400px;
+    
+}
+td{
+    padding: 10px;
+}
+tr{
+    background-color: rgb(131, 128, 128);
+}
+
+
+/*CONTEUDO*/
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #5a5858;
+    padding: 10px;
+    width: 150px;
+    min-height: 200px;
+}
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: yellow;
+    line-height: 20px;
+
+}
